@@ -37,7 +37,7 @@ function Login() {
         {
             UserServices.checkUserID(email)
             .then(response => {
-                if (response.data.status == true) {
+                if (response.data.status === true) {
                     userValidated();
                     toast.success("EMAIL ID VERIFIED!");
                 }
@@ -63,7 +63,7 @@ function Login() {
             };
             UserServices.checkPass(dat)
             .then(response => {
-                if (response.data.status == true) {
+                if (response.data.status === true) {
                     userValidated();
                     toast.success("USER VERIFIED!");
                     navOtp();

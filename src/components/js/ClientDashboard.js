@@ -13,10 +13,16 @@ const ClientDashboard = () => {
   const [medicalHomeLay, setMedicalHomeLay] = useState("client_dashboard_remove");
   const [isLoading, setIsLoading] = useState(true);
 
+  // useEffect(() => {
+  //   fetchClient();
+  //   fetchCountData();
+  // },[]);
+
   useEffect(() => {
     fetchClient();
     fetchCountData();
-  }, []);
+}, [fetchClient, fetchCountData]);
+
 
   const Navigate = useNavigate();
 
@@ -43,7 +49,7 @@ const ClientDashboard = () => {
     };
     ClientServices.fetchClient(searchData)
       .then(response => {
-        if (response.data.status == true) {
+        if (response.data.status === true) {
           setDataList(response.data.responsedata);
           toast.success("CLIENT DETAILS FETCHED SUCCESSFULLY");
         }
@@ -63,7 +69,7 @@ const ClientDashboard = () => {
   const resend = clientID => {
     ClientServices.resend(clientID)
       .then(response => {
-        if (response.data == true) {
+        if (response.data === true) {
           toast.success("ASSESSMENT LINK SENT SUCCESSFULLY!")
         }
         else {
@@ -191,7 +197,7 @@ const ClientDashboard = () => {
     }
     ClientServices.insertClient(data)
       .then(response => {
-        if (response.data.status == true) {
+        if (response.data.status === true) {
           togglePopup();
           toast.success("CLIENT CREATED SUCCESSFULLY!");
           window.location.reload(false);
@@ -269,7 +275,7 @@ const ClientDashboard = () => {
         var clmCnt = a;
         var cnt = 5;
         var p = [];
-        if (clmCnt == 10) {
+        if (clmCnt === 10) {
           p.push(clmCnt);
         }
         else {

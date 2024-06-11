@@ -107,7 +107,7 @@ const SuperAdminDashboard = () => {
                         <div className='mobile_admin_dashboard_user_entry_blk_area'>
                             <div className='mobile_admin_dashboard_user_header_text'>Welcome Admin!</div>
                             <div className='mobile_admin_dashboard_user_header_sub_text'>Last Updated On: 5.00 AM</div>
-                            <a href='#' className='mobile_admin_dashboard_user_link_text'>View users list</a>
+                            <a href='/' className='mobile_admin_dashboard_user_link_text'>View users list</a>
                         </div>
                     </div>
                     <div className='mobile_admin_dashboard_categories_header_area'>
