@@ -19,7 +19,7 @@ function OTP() {
         setEmail(location.state.email);
         UserServices.userOTP(location.state.email)
             .then(response => {
-                if (response.data.status == true) {
+                if (response.data.status === true) {
                     toast.success("VERIFICATION CODE SENT SUCCESSFULLY!");
                     setCode(response.data.responsedata);
                     setShowTimer("flex");
@@ -32,7 +32,7 @@ function OTP() {
             .catch(e => {
                 console.log(e);
             });
-    }, []);
+    });
 
     //otp-variables
     const [code, setCode] = useState("");
@@ -62,8 +62,8 @@ function OTP() {
     };
 
     const checkOtp = async() => {
-        if (otp.length == 8) {
-            if (otp == code) {
+        if (otp.length === 8) {
+            if (otp === code) {
                 await setTimer(false);
                 await setShowTimer("none");
                 await toast.success("USER VERIFICATION SUCCESSFULL!");
@@ -84,7 +84,7 @@ function OTP() {
                     <div >
                         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '20px' }}><h3 className="web_ncyb_otp_flx_inner_heading">Enter your Verification Code</h3></div>
                         <div className="web_ncyb_otp_flx_inner">
-                            <div style={{ position: 'relative' }}><input placeholder="Verification Code" type="password" className="web_ncyb_otp_flx_input" onBlur={blurOtp} ></input><img className="icon" width={45} style={{ paddingRight: '10px' }} src={right_arrow} onClick={() => checkOtp()}></img></div>
+                            <div style={{ position: 'relative' }}><input placeholder="Verification Code" type="password" className="web_ncyb_otp_flx_input" onBlur={blurOtp} ></input><img alt="icon" className="icon" width={45} style={{ paddingRight: '10px' }} src={right_arrow} onClick={() => checkOtp()}></img></div>
                         </div>
                         <div className='web_login_timer_flux' >
                             <div className="timer-wrapper" style={{ display: showTimer }}>

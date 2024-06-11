@@ -9,7 +9,7 @@ function LoadingResponse() {
 
     useEffect(() => {
         nav();
-    }, []);
+    });
 
     const nav = async () => {
         await delay(300);

@@ -95,11 +95,11 @@ function Login() {
             <div className="web_ncyb_login">
                 <div className="web_ncyb_login_flx">
                     <div >
-                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '30px' }}><img src={favicon} height={45} style={{ borderRadius: '15px' }}></img><h3 className="web_ncyb_login_flx_inner_heading">Sign In to CasualtyCat</h3></div>
+                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '30px' }}><img alt="favicon" src={favicon} height={45} style={{ borderRadius: '15px' }}></img><h3 className="web_ncyb_login_flx_inner_heading">Sign In to CasualtyCat</h3></div>
                         <div className="web_ncyb_login_flx_inner">
-                            <div style={{ position: 'relative' }}><input disabled={userLock} placeholder="Username" className={userStyle} onBlur={blurEmail} ></input><img className="icon" width={45} style={{ paddingRight: '10px' }} src={arrow} onClick={() => checkUser()}></img></div>
+                            <div style={{ position: 'relative' }}><input disabled={userLock} placeholder="Username" className={userStyle} onBlur={blurEmail} ></input><img alt="icon" className="icon" width={45} style={{ paddingRight: '10px' }} src={arrow} onClick={() => checkUser()}></img></div>
                             {passwordBool && <div style={{ height: '0.6px', backgroundColor: '#e1e2e3' }}></div>}
-                            {passwordBool && <div style={{ position: 'relative' }}><input type="password" placeholder="Password" className="web_ncyb_login_flx_input_bottom" onBlur={blurPassword}></input><img className="icon" width={45} style={{ paddingRight: '10px' }} src={right_arrow} onClick={() => checkPassword()}></img></div>}
+                            {passwordBool && <div style={{ position: 'relative' }}><input type="password" placeholder="Password" className="web_ncyb_login_flx_input_bottom" onBlur={blurPassword}></input><img alt="icon" className="icon" width={45} style={{ paddingRight: '10px' }} src={right_arrow} onClick={() => checkPassword()}></img></div>}
                         </div>
                         <div style={{ display: 'grid', placeItems: 'center', marginTop: '30px', fontFamily: 'Poppins' }}><Button style={{ padding: '0px', margin: '0px', fontSize: '17px', color: '#fff' }} variant="link">Forgot Password ➚</Button></div>
                     </div>

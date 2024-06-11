@@ -21,7 +21,7 @@ const ClientDashboard = () => {
   useEffect(() => {
     fetchClient();
     fetchCountData();
-}, [fetchClient, fetchCountData]);
+});
 
 
   const Navigate = useNavigate();
