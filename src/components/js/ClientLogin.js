@@ -17,9 +17,9 @@ function ClientLogin() {
         navigate('/clientOtp', { state: { email: email } });
     }
 
-    const [arrow, setArrow] = useState(right_arrow);
-    const [userStyle, setUserStyle] = useState("web_ncyb_login_flx_input");
-    const [userLock, setUserLock] = useState(false);
+    const [arrow] = useState(right_arrow);
+    const [userStyle] = useState("web_ncyb_login_flx_input");
+    const [userLock] = useState(false);
     
     const [email, setEmail] = useState("");
 

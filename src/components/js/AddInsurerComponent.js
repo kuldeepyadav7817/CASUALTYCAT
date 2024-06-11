@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/AddInsurerComponent.css'
-import { useState, useEffect } from 'react';
+import { useState} from 'react';
 // import { ImageList, ImageListItem } from '@mui/material';
 import { Button } from 'react-bootstrap';
 import MasterPopup from '../popup/MasterPopup';
@@ -9,7 +9,7 @@ import AdminTopNavHome from '../widgets/AdminTopNavHome';
 const AddInsurerComponent = () => {
 
 
-    const [dataList, setDataList] = useState([]);
+    const [dataList] = useState([]);
 
     const [isOpen, setIsOpen] = useState(false);
     const togglePopup = () => {

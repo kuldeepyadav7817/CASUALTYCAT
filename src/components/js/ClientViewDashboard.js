@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/ClientViewDashboard.css'
 import { Button } from 'react-bootstrap'
-import { Navigate, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const ClientViewDashboard = () => {
 

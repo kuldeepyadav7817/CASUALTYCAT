@@ -11,7 +11,7 @@ import AdminTopNavHome2 from '../widgets/AdminTopNavHome2';
 
 function SuperAdminQuestionnaireList() {
     const location = useLocation();
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
     const [clientID, setClientID] = useState("");
     const [dataList, setDataList] = useState([]);
     useEffect(() => {

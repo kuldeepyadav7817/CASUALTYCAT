@@ -15,7 +15,7 @@ function ClientOTP() {
     const location = useLocation();
     const navigate = useNavigate();
 
-    const [email, setEmail] = useState("");
+    const [setEmail] = useState("");
 
     useEffect(() => {
         setEmail(location.state.email);

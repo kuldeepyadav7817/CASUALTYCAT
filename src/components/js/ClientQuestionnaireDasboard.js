@@ -57,9 +57,9 @@ function ClientQuestionnaireDasboard() {
     }, [clientID]);
 
     const [isOpen, setIsOpen] = useState(false);
-    const togglePopup = () => {
-        setIsOpen(!isOpen);
-    }
+    // const togglePopup = () => {
+    //     setIsOpen(!isOpen);
+    // }
 
     const zeroCheck = value => {
         if (value == 0) {
