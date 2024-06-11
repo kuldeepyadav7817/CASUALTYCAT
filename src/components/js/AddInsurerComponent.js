@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/AddInsurerComponent.css'
 import { useState, useEffect } from 'react';
-import { ImageList, ImageListItem } from '@mui/material';
+// import { ImageList, ImageListItem } from '@mui/material';
 import { Button } from 'react-bootstrap';
 import MasterPopup from '../popup/MasterPopup';
 import AdminTopNavHome from '../widgets/AdminTopNavHome';

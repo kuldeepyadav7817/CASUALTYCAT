@@ -3,16 +3,16 @@ import '../css/SuperAdminQuestionnaireDasboard.css';
 import Qst from '../Assets/qst.png'
 import rightarrow from '../Assets/right_arrow.gif'
 import { useLocation, useNavigate } from 'react-router-dom';
-import { Button } from 'react-bootstrap';
-import ClientTopNavHome from '../widgets/ClientTopNavHome';
-import MasterPopup from '../popup/MasterPopup';
+// import { Button } from 'react-bootstrap';
+// import ClientTopNavHome from '../widgets/ClientTopNavHome';
+// import MasterPopup from '../popup/MasterPopup';
 import ClientServices from '../../services/ClientServices';
 import {
     CircularProgressbar,
     buildStyles
 } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-import AdminTopNavHome from '../widgets/AdminTopNavHome';
+// import AdminTopNavHome from '../widgets/AdminTopNavHome';
 import AdminTopNavHome2 from '../widgets/AdminTopNavHome2';
 
 

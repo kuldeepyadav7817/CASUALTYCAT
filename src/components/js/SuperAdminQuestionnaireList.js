@@ -3,10 +3,10 @@ import '../css/SuperAdminQuestionnaireList.css';
 import ClientServices from '../../services/ClientServices';
 import { ImageList, ImageListItem } from '@mui/material';
 import { useLocation, useNavigate } from 'react-router-dom';
-import ClientTopNavHome from '../widgets/ClientTopNavHome';
-import ProgressBar from "@ramonak/react-progress-bar";
-import rightarrow from '../Assets/next_ic.gif'
-import AdminTopNavHome from '../widgets/AdminTopNavHome';
+// import ClientTopNavHome from '../widgets/ClientTopNavHome';
+// import ProgressBar from "@ramonak/react-progress-bar";
+// import rightarrow from '../Assets/next_ic.gif'
+// import AdminTopNavHome from '../widgets/AdminTopNavHome';
 import AdminTopNavHome2 from '../widgets/AdminTopNavHome2';
 
 function SuperAdminQuestionnaireList() {

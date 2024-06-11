@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import '../css/ClientLogin.css';
 import right_arrow from '../Assets/next.png';
-import loading from '../Assets/loading.gif';
+// import loading from '../Assets/loading.gif';
 import favicon from '../Assets/white_logo.png';
-import { Button } from "react-bootstrap";
-import UserServices from "../../services/UserServices";
+// import { Button } from "react-bootstrap";
+// import UserServices from "../../services/UserServices";
 import { ToastContainer, toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
 import ClientServices from "../../services/ClientServices";
