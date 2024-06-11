@@ -28,24 +28,24 @@ function App() {
       </div>
       <Routes>
         <Route exact path='/' element={<Login />} />
-        {/* <Route exact path='/otp' element={<OTP />} /> */}
+        <Route exact path='/addUserComponent' element={<AddUserComponent/>} />
         <Route exact path='/superAdminDashboard' element={<SuperAdminDashboard />} />
+        <Route exact path='/clientDashboard' element={<ClientDashboard />} />
+        <Route exact path='/loadingResponse' element={<LoadingResponse />} />
+        <Route exact path='/addInsurerComponent' element={<AddInsurerComponent/>} />
+        {/* <Route exact path='/otp' element={<OTP />} /> */}
         {/* <Route exact path='/superAdminQuestionnaireDasboard' element={<SuperAdminQuestionnaireDasboard />} /> */}
         {/* <Route exact path='/superAdminQuestionnaireTeamSplit' element={<SuperAdminQuestionnaireTeamSplit />} /> */}
         {/* <Route exact path='/superAdminQuestionnaireList' element={<SuperAdminQuestionnaireList />} /> */}
         {/* <Route exact path='/superAdminMIS' element={<SuperAdminMIS />} /> */}
         {/* <Route exact path='/adminCIReportWord' element={<AdminCIReportWord />} /> */}
         {/* <Route exact path='/adminQuestionnaireGeneral' element={<AdminQuestionnaireGeneral />} /> */}
-        <Route exact path='/clientDashboard' element={<ClientDashboard />} />
         {/* <Route exact path='/clientQuestionnaireDasboard' element={<ClientQuestionnaireDasboard />} /> */}
         {/* <Route exact path='/clientQuestionnaireTeamSplit' element={<ClientQuestionnaireTeamSplit />} /> */}
         {/* <Route exact path='/clientQuestionaire' element={<ClientQuestionaire />} /> */}
-        <Route exact path='/loadingResponse' element={<LoadingResponse />} />
         {/* <Route exact path='/clientQuestionnaireGeneral' element={<ClientQuestionnaireGeneral />} /> */}
         {/* <Route exact path='/clientLogin' element={<ClientLogin />} /> */}
         {/* <Route exact path='/clientOTP' element={<ClientOTP />} /> */}
-        <Route exact path='/addInsurerComponent' element={<AddInsurerComponent/>} />
-        <Route exact path='/addUserComponent' element={<AddUserComponent/>} />
       </Routes>
       
     </div>
