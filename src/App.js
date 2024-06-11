@@ -1,13 +1,13 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Login from './components/js/Login';
-// import OTP from './components/js/OTP';
+import OTP from './components/js/OTP';
 import SuperAdminDashboard from './components/js/SuperAdminDashboard';
 import ClientDashboard from './components/js/ClientDashboard';
 // import ClientQuestionnaireDasboard from './components/js/ClientQuestionnaireDasboard';
 // import ClientQuestionnaireTeamSplit from './components/js/ClientQuestionnaireTeamSplit';
 // import ClientQuestionaire from './components/js/ClientQuestionaire';
-// import LoadingResponse from './components/js/LoadingResponse';
+import LoadingResponse from './components/js/LoadingResponse';
 // import ClientQuestionnaireGeneral from './components/js/ClientQuestionnaireGeneral';
 // import ClientLogin from './components/js/ClientLogin';
 // import ClientOTP from './components/js/ClientOTP';
