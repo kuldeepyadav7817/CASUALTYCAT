@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Login from './components/js/Login';
-import OTP from './components/js/OTP';
+// import OTP from './components/js/OTP';
 import SuperAdminDashboard from './components/js/SuperAdminDashboard';
 import ClientDashboard from './components/js/ClientDashboard';
 // import ClientQuestionnaireDasboard from './components/js/ClientQuestionnaireDasboard';
