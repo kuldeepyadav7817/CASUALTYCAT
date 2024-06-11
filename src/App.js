@@ -25,7 +25,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route exact path='/' element={<Login />} />
-        <Route exact path='/otp' element={<OTP />} />
+        {/* <Route exact path='/otp' element={<OTP />} /> */}
         <Route exact path='/superAdminDashboard' element={<SuperAdminDashboard />} />
         {/* <Route exact path='/superAdminQuestionnaireDasboard' element={<SuperAdminQuestionnaireDasboard />} /> */}
         {/* <Route exact path='/superAdminQuestionnaireTeamSplit' element={<SuperAdminQuestionnaireTeamSplit />} /> */}
