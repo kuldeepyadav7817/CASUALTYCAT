@@ -5,7 +5,7 @@ import { updateSampleSection } from './sample-base';
 import { DocumentEditorContainerComponent, Toolbar } from '@syncfusion/ej2-react-documenteditor';
 import { TitleBar } from './title-bar';
 // import { useState } from 'react';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import { Button } from 'react-bootstrap';
 import AdminTopNavHome2 from '../widgets/AdminTopNavHome2';
 // import { useLocation, useNavigate } from 'react-router-dom';

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../css/ClientDashboard.css';
 import { Button } from 'react-bootstrap';
-import { Navigate, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { ImageList, ImageListItem } from '@mui/material';
 import AdminTopNavHome from '../widgets/AdminTopNavHome';
 import MasterPopup from '../popup/MasterPopup';

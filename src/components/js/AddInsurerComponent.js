@@ -9,7 +9,7 @@ import AdminTopNavHome from '../widgets/AdminTopNavHome';
 const AddInsurerComponent = () => {
 
 
-    const [dataList] = useState([]);
+    // const [dataList] = useState([]);
 
     const [isOpen, setIsOpen] = useState(false);
     const togglePopup = () => {
