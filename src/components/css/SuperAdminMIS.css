@@ -1,0 +1,32 @@
+
+.web_superadmin_mis_new_button {
+    height: 45px !important;
+    width: 15vw  !important;
+    border-radius: 5px  !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    font-family: "Poppins" !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    margin-right: 1vw !important;
+    margin-top: 10vh !important;
+    cursor: pointer !important;
+    background-color: #0129BD !important;
+    border: 2px solid #fff !important;
+    /* box-shadow: 5px 5px 5px #0129BD; */
+    color: #fff !important;
+}
+
+.web_superadmin_mis_new_button:hover {
+    height: 45px;
+    width: 15vw;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins";
+    cursor: pointer;
+    background-color: #fff !important;
+    border: 2px solid #0129BD !important;
+    /* box-shadow: 5px 5px 5px #0129BD; */
+    color: #0129BD !important;
+}

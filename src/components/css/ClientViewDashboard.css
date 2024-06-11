@@ -1,0 +1,221 @@
+.web_client_view_blk_area{
+    display: block;
+    margin-top: 5vh;
+    margin-left: 3vw;
+    width: 95%;
+    height: 24vh;
+    border-radius: 10px;
+    background-color:white;
+    box-shadow: 1px 3px 7px grey;
+}
+.web_client_view_cmp_name_text{
+    font-size: 22px;
+    padding-top: 12px;
+    margin-left: 20px;
+    font-weight: 500;
+    font-family: 'poppins',sans-serif;
+    color: black;
+}
+.web_client_view_questioniare_text{
+    font-size: 26px;
+    padding-top: 5vh;
+    margin-left: 5vw;
+    font-weight: 500;
+    font-family: 'poppins',sans-serif;
+    color: black;
+}
+.web_client_view_assessment_area{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 15vh;
+}
+.web_client_view_assessment_question_type_area{
+    display: block;
+    width: 15vw;
+    height: 15vh;
+}
+.web_client_view_calendar_area{
+    display: flex;
+    align-items: center;
+    width: 14vw;
+    height: 6vh;
+}
+.web_client_view_questioniare_flex_area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    width: 100%;
+    height: 35vh;
+}
+.web_client_view_bottom_questioniare_flex_area{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+    width: 53%;
+    height: 45vh;
+}
+.web_client_view_header_text{
+    font-size: 15px;
+    padding-top: 20px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-family: 'poppins',sans-serif;
+    color: black;
+}
+.web_client_view_calendar_date_text{
+    font-size: 14px;
+    margin-left: 4px;
+    font-weight: 500;
+    font-family: 'poppins',sans-serif;
+    color: black;
+}
+.web_client_view_category_bottom_text{
+    font-size: 15px;
+    margin-left: 4px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'poppins',sans-serif;
+    color: black;
+}
+.web_client_view_calendar_bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 25px;
+    margin-left: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/public/Assets/calendar\(3\)\ 1.png);
+}
+.web_client_view_category_blk_area{
+    display: block;
+    width: 14vw;
+    margin-left: 20px;
+    height: 31vh;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 1px 3px 9px grey;
+    border-radius: 25px;
+}
+.web_client_view_category_internal_bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8vw;
+    height: 9vw;
+    margin-left: 35px;
+    margin-top: 4px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/public/Assets/chronometer\ 1.png);
+}
+.web_client_view_category_objective_bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    width: 8vw;
+    height: 9vw;
+    margin-left: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/public/Assets/goal\(1\)\ 1.png);
+}
+.web_client_view_category_events_bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    width: 8vw;
+    height: 9vw;
+    margin-left: 45px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/public/Assets/event\(1\)\ 1.png);
+}
+.web_client_view_category_risk_bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    width: 8vw;
+    height: 9vw;
+    margin-left: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/public/Assets/speedometer\ 1.png);
+}
+.web_client_view_category_organizational_bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    width: 8vw;
+    height: 9vw;
+    margin-left: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/public/Assets/buildings\ 1.png);
+}
+.web_client_view_category_contractual_bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    width: 8vw;
+    height: 9vw;
+    margin-left: 38px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/public/Assets/signature\ 1.png);
+}
+.web_client_view_category_risk_variables_bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    width: 9vw;
+    height: 10vw;
+    margin-left: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/public/Assets/risk\(1\)\ 1.png);  
+}
+.web_client_view_category_high_risk_bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    width: 9vw;
+    height: 10vw;
+    margin-left: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/public/Assets/high-risk\ 1.png);  
+}
+.web_client_view_category_sheild_bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    width: 9vw;
+    height: 10vw;
+    margin-left: 34px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/public/Assets/shield\ 1.png);  
+}

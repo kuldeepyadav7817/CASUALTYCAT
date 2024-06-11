@@ -1,0 +1,322 @@
+.web_client_Questionaire_top_area{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    background-color: white;
+    z-index: 1;
+}
+.web_client_Questionaire_heading_area{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    /* justify-content: center; */
+    height: 15vh;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #c1c2c3;
+}
+.web_client_Questionaire_name_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+    height: 8vh;
+    margin-left: 10vw;
+    /* box-shadow: 0.5px 0.5px 3px grey; */
+}
+/* .web_client_Questionaire_logo_bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    cursor: pointer;
+    height: 68px;
+    margin-right: 25px;
+    margin-left: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/public/Assets/AttachedFile1.png);
+} */
+.web_client_Questionaire_name_text{
+    display: flex;
+    font-size: 23px;                     
+    font-weight: 600;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.web_client_Questionaire_head_section_text{
+    display: flex;
+    font-size: 17px;                     
+    font-weight: 600;
+    color: #000;
+    font-family: "poppins";
+    text-transform: capitalize;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+}
+.web_client_Questionaire_head_bg {
+    display: flex;
+    width: 3vw;
+    height: 4vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/src/components/Assets/timer.png);
+}
+.web_client_Questionaire_left_arrow {
+    min-width: 5vw;
+    min-height: 5vw;
+    margin-left: 5vw;
+    margin-top: 15vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/src/components/Assets/left_arrow.png);
+}
+.web_client_Questionaire_right_arrow {
+    min-width: 5vw;
+    min-height: 5vw;
+    margin-right: 5vw;
+    margin-top: 15vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/src/components/Assets/right_arrow.png);
+}
+.web_client_Questionaire_section_area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17vw;
+    height: 5vh;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    border-radius: 25px;
+}
+.web_client_Questionaire_Question_section_area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8vh;
+    margin-bottom: 6vh;
+    
+}
+.web_client_Questionaire_section_text{
+    display: flex;
+    font-size: 18px;                     
+    font-weight: 500;
+    color: black;
+    font-family: "poppins";
+    text-transform: capitalize;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.web_client_Questionaire_option_blk_active{
+    display: flex;
+    background-color: #0054B4;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 6px #c1c2c3;
+}
+.web_client_Questionaire_option_blk_inactive{
+    display: flex;
+    background-color: #ffffff;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 6px #c1c2c3;
+}
+.web_client_Questionaire_option_text_active{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 15px;                     
+    font-weight: 500;
+    color: #fff;
+    font-family: "poppins";
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.web_client_Questionaire_option_text_inactive{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 15px;                     
+    font-weight: 500;
+    color: #000;
+    font-family: "poppins";
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.web_client_Questionaire_Question_section_text{
+    display: flex;
+    width: 65vw;
+    font-size: 19px;                     
+    font-weight: 500;
+    color: #0054B4;
+    font-family: "poppins";
+    text-transform: capitalize;
+    text-align: center;
+    cursor: pointer;
+}
+.web_client_questionaire_bg:hover{
+    cursor: pointer;
+    background-color: #0129BD !important;
+    border: 1px solid #0129BD !important;
+    color: #fff !important;
+}
+
+.web_client_questionaire_status_circle_green
+{
+    min-width: 35px;
+    min-height: 35px;
+    max-width: 35px;
+    max-height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #0BDA51;
+    cursor: pointer;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.web_client_questionaire_status_circle_red
+{
+    min-width: 35px;
+    min-height: 35px;
+    max-width: 35px;
+    max-height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #e3e3e3;
+    cursor: pointer;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.web_client_questionaire_status_circle_amber
+{
+    min-width: 35px;
+    min-height: 35px;
+    max-width: 35px;
+    max-height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #FFAA33;
+    cursor: pointer;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.web_client_questionaire_status_circle_active
+{
+    min-width: 35px;
+    min-height: 35px;
+    max-width: 35px;
+    max-height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #0129BD;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+.web_client_dashboard_new_button2 {
+    height: 35px !important;
+    width: 6vw  !important;
+    border-radius: 5px  !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    font-family: "Poppins" !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    margin-left: 20px !important;
+    margin-right: 15px !important;
+    cursor: pointer !important;
+    background-color: #fff !important;
+    border: 2px solid #0054B4 !important;
+    /* box-shadow: 5px 5px 5px #0129BD; */
+    color: #0054B4 !important;
+}
+
+.web_client_dashboard_new_button2:hover {
+    height: 35px;
+    width: 6vw;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Poppins";
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+    background-color: #0054B4 !important;
+    border: 2px solid #0054B4 !important;
+    /* box-shadow: 5px 5px 5px #0129BD; */
+    color: #fff !important;
+}
+
+.web_client_dashboard_new_button3 {
+    height: 35px !important;
+    width: 6vw  !important;
+    border-radius: 5px  !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    font-family: "Poppins" !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    margin-left: 20px !important;
+    margin-right: 15px !important;
+    cursor: pointer !important;
+    background-color: #FFAA33 !important;
+    border: 2px solid #FFAA33  !important;
+    /* box-shadow: 5px 5px 5px #0129BD; */
+    color: #000 !important;
+}
+
+.web_client_dashboard_new_button3:hover {
+    height: 35px;
+    width: 6vw;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Poppins";
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+    background-color: #fff  !important;
+    border: 2px solid #FFAA33 !important;
+    /* box-shadow: 5px 5px 5px #0129BD; */
+    color: #000 !important;
+}

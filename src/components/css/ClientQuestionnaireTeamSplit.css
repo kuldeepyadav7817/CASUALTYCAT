@@ -1,0 +1,20 @@
+
+
+@media only screen and (min-device-width: 769px) {
+
+    .web_clientside_team_split_view_flex_area {
+        display: flex;
+        justify-content: center;
+        margin-top: 5vh;
+        margin-bottom: 10vh;
+        width: 96vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    .web_clientside_team_split_view_flex_area_div {  
+        display: flex;
+        justify-content: center;
+    }
+
+}

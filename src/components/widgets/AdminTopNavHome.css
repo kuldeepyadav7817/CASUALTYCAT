@@ -1,0 +1,225 @@
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    
+    .web_admin_top_nav_home
+    {
+        display: none;
+        width: 0;
+        visibility: collapse;
+        height: 0;
+    }
+
+    .mobile_admin_top_home_medical_nav_area
+    {
+        background-color: #051962;
+        padding-top: 8px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 52px;
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+        display: flex;
+    }
+    
+    .mobile_admin_top_home_medical_nav_logo
+    {
+        width: 37px;
+        height: 37px;
+        margin-left: 4vw;
+        z-index: 1;
+        background-size: cover;
+        background-image: url(/src/components/Assets/logo.png);
+        cursor: pointer;
+    }
+    
+    .mobile_admin_top_home_nav_flx {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .mobile_admin_top_home_medical_nav_profile
+    {
+        background-image: url(/src/components/Assets/prof.gif);
+        background-position: center;
+        background-size: cover;
+        width: 37px;
+        height: 37px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .mobile_admin_top_home_nav_head
+    {
+        height: 40px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin-left: 10px;
+    }
+    
+    .mobile_admin_top_home_nav_head_text
+    {
+        padding-top: 8px;
+        font-family: 'Poppins';
+        color: white;
+        font-size: 19px;
+        cursor: pointer;
+        margin-right: 15px;
+    }
+    
+    .mobile_admin_top_home_medical_select_text
+    {
+        background-color: white;
+        color: black;
+        font-family: "Poppins";
+    }
+
+    .mobile_admin_top_home_medical_nav_right
+    {
+        display: flex;
+        justify-content: right;
+        margin-left: 2%;
+    }
+    
+    .mobile_admin_top_home_medical_nav_right_text
+    {
+        padding-top: 6px;
+        padding-right: 15px;
+        color: white;
+        font-family: 'Poppins';
+        cursor: pointer;
+    }
+    
+    .mobile_admin_top_home_medical_nav_right_text:hover
+    {
+        padding-top: 6px;
+        padding-right: 15px;
+        color: #1DA1F2;
+        font-family: 'Poppins';
+        cursor: pointer;
+    }
+
+    .btn-drop
+    {
+        background: transparent;
+        color: white;
+        font-family: 'Poppins';
+    }
+
+    .btn-drop:active .btn-drop:focus .btn-drop:hover
+    {
+        background: transparent;
+        color: white;
+        font-family: 'Poppins';
+    }
+}
+
+@media only screen and (min-device-width: 769px) {
+
+    .mobile_admin_top_nav_home
+    {
+        display: none;
+        width: 0;
+        visibility: collapse;
+        height: 0;
+    }
+
+    .web_admin_top_nav_home
+    {
+        height: 50px;
+    }
+
+    .web_admin_top_home_medical_nav_area
+    {
+        background-color: #fff;
+        border: 1px solid #c1c2c3;
+        padding-top: 8px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 52px;
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+        display: flex;
+    }
+    
+    .web_admin_top_home_medical_nav_logo
+    {
+        width: 37px;
+        height: 37px;
+        margin-left: 3vw;
+        z-index: 1;
+        background-size: cover;
+        background-image: url(/src/components/Assets/logo.png);
+        cursor: pointer;
+    }
+    
+    .web_admin_top_home_nav_flx {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .web_admin_top_home_medical_nav_profile
+    {
+        background-image: url(/src/components/Assets/prof.gif);
+        background-position: center;
+        background-size: cover;
+        width: 37px;
+        height: 37px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .web_admin_top_home_nav_head
+    {
+        height: 40px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin-left: 10px;
+    }
+    
+    .web_admin_top_home_nav_head_text
+    {
+        padding-top: 8px;
+        font-family: 'Poppins';
+        color: black;
+        font-size: 21px;
+        cursor: pointer;
+        margin-right: 15px;
+    }
+    
+    .web_admin_top_home_medical_nav_right
+    {
+        display: flex;
+        justify-content: right;
+        margin-left: 51%;
+    }
+    
+    .web_admin_top_home_medical_nav_right_text
+    {
+        padding-top: 6px;
+        padding-right: 15px;
+        color: black;
+        font-family: 'Poppins';
+        cursor: pointer;
+        font-weight: 500;
+    }
+    
+    .web_admin_top_home_medical_nav_right_text:hover
+    {
+        padding-top: 6px;
+        padding-right: 15px;
+        color: #1DA1F2;
+        font-family: 'Poppins';
+        cursor: pointer;
+    }
+
+}

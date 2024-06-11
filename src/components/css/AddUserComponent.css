@@ -1,0 +1,37 @@
+.web_User_List_dashboard_border{
+    display: flex;
+    margin-left: 40px;
+    border-bottom: 4px solid #0129BD;
+    width:24vw;
+    border-radius: 5px;
+}
+.web_user_add_list_text{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 40px;
+    padding-top: 5px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.web_user_type_text_area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    /* width: 9vw; */
+    border-radius: 10px !important;
+    font-size: 15px;
+    font-weight: 500 !important;
+    font-family: "Poppins"  !important;
+    margin: 0px;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #fff !important;
+    border: 2px solid #0129BD !important;
+    /* box-shadow: 1px 1px 1px #0129BD; */
+    color: #0129BD !important;
+    cursor: pointer;
+}

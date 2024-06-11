@@ -1,0 +1,50 @@
+.hello{
+    width: 20vw;
+    height: 60vh;
+    background-color: aqua;
+}
+.web_client_dashboard_header_area {
+    display: flex;
+    width: 100%;
+    margin-top: 3vh;
+    height: 12vh;
+    align-items: center;
+}
+.web_Insurance_dashboard_text {
+    display: flex;
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+.web_Insurance_dashboard_border {
+    display: flex;
+    margin-left: 40px;
+    border-bottom: 4px solid #0129BD;
+    width:26vw;
+    border-radius: 5px;
+}
+.web_Insurance_dashboard_user_text{
+    display: flex;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+.web_client_dashboard_block_head_industry_text {
+    font-family: 'Poppins';
+    padding-left: 30px;
+    padding-top: 5px;
+    min-width: 350px;
+    color: #0129BD;
+    text-transform: uppercase;
+}
+.web_client_dashboard_block_close {
+    background-image: url(/src/components/Assets/close.png);
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 70%;
+    cursor: pointer;
+}
