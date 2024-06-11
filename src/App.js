@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Login from './components/js/Login';
 // import OTP from './components/js/OTP';
@@ -23,6 +23,9 @@ import AddUserComponent from './components/js/AddUserComponent'
 function App() {
   return (
     <div className="App">
+      <div className='loginSkipLink'>
+       <Link to="/superAdminDashboard">superAdminDashboard</Link> 
+      </div>
       <Routes>
         <Route exact path='/' element={<Login />} />
         {/* <Route exact path='/otp' element={<OTP />} /> */}
@@ -44,6 +47,7 @@ function App() {
         <Route exact path='/addInsurerComponent' element={<AddInsurerComponent/>} />
         <Route exact path='/addUserComponent' element={<AddUserComponent/>} />
       </Routes>
+      
     </div>
   );
 }
