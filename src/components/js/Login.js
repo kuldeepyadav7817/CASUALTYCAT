@@ -102,6 +102,7 @@ function Login() {
                             {passwordBool && <div style={{ position: 'relative' }}><input type="password" placeholder="Password" className="web_ncyb_login_flx_input_bottom" onBlur={blurPassword}></input><img alt="icon" className="icon" width={45} style={{ paddingRight: '10px' }} src={right_arrow} onClick={() => checkPassword()}></img></div>}
                         </div>
                         <div style={{ display: 'grid', placeItems: 'center', marginTop: '30px', fontFamily: 'Poppins' }}><Button style={{ padding: '0px', margin: '0px', fontSize: '17px', color: '#fff' }} variant="link">Forgot Password ➚</Button></div>
+                        <a href="/superAdminDashboard">Home page</a>
                     </div>
                 </div>
             </div>
