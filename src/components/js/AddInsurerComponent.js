@@ -141,19 +141,19 @@ const AddInsurerComponent = () => {
                         <div className='web_client_dashboard_view_blk_right'>
                             <div className='web_client_dashboard_view_office_flex_area'>
                                 <div className='web_client_dashboard_office_bg'></div>
-                                <div className='web_client_dashboard_office_text'>TransAsia</div>
+                                <div className='web_client_dashboard_office_text'>kuldeep yadav</div>
                             </div>
                             <div className='web_client_dashboard_view_office_flex_area'>
                                 <div className='web_client_dashboard_phone_bg'></div>
-                                <div className='web_client_dashboard_phone_text'>9940643671</div>
+                                <div className='web_client_dashboard_phone_text'>7817992569</div>
                             </div>
                             <div className='web_client_dashboard_view_office_flex_area'>
                                 <div className='web_client_dashboard_mail_bg'></div>
-                                <div className='web_client_dashboard_phone_text'>ctrack.bima@gmail.com</div>
+                                <div className='web_client_dashboard_phone_text'>ky29063@gmail.com</div>
                             </div>
                             <div className='web_client_dashboard_view_office_flex_area'>
                                 <div className='web_client_dashboard_eye_bg'></div>
-                                <div className='web_client_dashboard_eye_text'>29-04-2023</div>
+                                <div className='web_client_dashboard_eye_text'>29-04-2024</div>
                             </div>
 
                         </div>
